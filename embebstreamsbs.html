@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor Stream</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .video-container {
+            width: 80%;
+            max-width: 800px;
+            aspect-ratio: 16 / 9;
+            background-color: #111;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+        <!-- Se añaden permisos comunes para reproductores de video -->
+        <iframe 
+            src="https://streamx061.sbs/global1.php?channel=disney1" 
+            allowfullscreen 
+            allow="autoplay; encrypted-media">
+        </iframe>
+    </div>
+
+</body>
+</html>
