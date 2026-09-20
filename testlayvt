@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <style>
+    html, body { margin:0; padding:0; background:#000; height:100%; overflow:hidden; }
+    .video-container { position:relative; width:100%; height:100%; }
+    iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:0; }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCduDVU9scVGanbCbVgiSyfA&autoplay=1&playsinline=1&mute=0&origin=https://Oz9488.github.io"
+      frameborder="0"
+      allow="autoplay; encrypted-media; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</body>
+</html>
